@@ -210,6 +210,8 @@ interface ItemProps {
    * Callback fired on pressing an item
    */
   onPress?(event: OnPressCallBack): void
+  cellStyle?: TableViewCellStyle
+  cellEditingStyle?: CellEditingStyle
 }
 
 interface TableViewProps {
